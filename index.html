@@ -1,120 +1,76 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Fluentify</title>
-
-  <!-- CSS&FONTS -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <!-- /CSS&FONTS -->
-
-</head>
-
-<body>
-  <!-- WRAPPER+HEADER-NAV+HERO -->
+  <body>
   <header>
-  <section class="wrapper">
-
-    <img src="img/logo.svg">
-    <div class="main-nav">
-      <ul>
-        <li><a href="#">Il metodo</a></li>
-        <li><a href="#">La tecnologia</a></li>
-        <li><a href="#">Real-life English</a></li>
-        <li><a href="#">Soluzioni aziendali</a></li>
-      </ul>
-    </div>
-    <div class="side-nav">
-      <ul>
-        <li><a href="#">Diventa un tutor</a></li>
-        <li><a href="#" id="button-1">Login</a></li>
-        <li><a href="#" id="button-2">Struttura un piano</a></li>
-      </ul>
-    </div>
-
-
-  </section>
-  <section id="hero">
-    <div class="title-button">
-      <h1>Scegli l'inglese studiato <br> per i professionisti</h1>
-      <button type="button" name="button">Struttura un piano </button>
-    </div>
-
-  </section>
-</header>
-  <!-- WRAPPER+HEADER-NAV+HERO -->
-
-  <!-- UPPER-MAIN -->
-  <section class="upper-main">
-  <h3>Le scuole di lingua tradizionali non sono efficaci</h3>
-  <h4>Solo un corso incentrato sulla fluency può portare a una soluzione definitiva concreta</h4>
-</section>
-<!-- /UPPER-MAIN -->
-
-<!-- COLUMN-LAYOUT -->
-  <section class="column-layout clearfix">
-
-  <div class="col-left">
-    <img src="img/profile.svg">
-    <h3>Piano formativo configurato <br> sul proprio livello</h3>
-    <hr>
-    <p>Un metodo improntato sullo speaking con <br> percorsi basati esattamente sulle esigenze <br> personali dei partecipanti. Tutto parte da un <br> accurato test di partenza per definire il <br> livello e impostare gli obiettivi da <br>
-      raggiungere.</p>
-  </div>
-  <div class="col-center">
-    <img src="img/computer.svg">
-    <h3>Affiancamento costante del<br>tutor</h3>
-    <hr>
-    <p>Scopri il syllabus, la guida per il tuo percorso. <br> Scegli gli argomenti per passare al livello successivo e affrontali con i tutor nelle sessioni one-to-one.</p>
-  </div>
-  <div class="col-right">
-    <img src="img/doc.svg">
-    <h3>Monitora i tuoi progressi<br>costantemente</h3>
-    <hr>
-    <p>Controlla i tuoi progressi con i dati elaborati dal nostro sistema</p>
-  </div>
-</section>
-<!-- COLUMN-LAYOUT -->
-<hr>
-<!-- LOWER-MAIN -->
-
-<section class="lower-main clearfix">
-  <div class="l-main-1">
-    <img src="img/mountain.svg">
-  </div>
-  <div class="l-main-2">
-    <div class="l-main-2-text">
-      <h2>Scopri il tuo livello iniziale e<br>struttura un piano<br>organizzato</h2>
-      <p>L'esperienza Fluentify parte sempre da un test di placement per avere una chiara visione del tuo inglese, ad oggi</p>
-      <span><a href="#">Scopri il nostro test di placement</a></span>
-    </div>
-
-  </div>
-</section>
-<!-- /LOWER-MAIN -->
-
-<!-- FOOTER -->
-  <footer>
-    <div class="f-container clearfix">
-      <div class="f-con-1">
-        <h2>Struttura un piano</h2>
+    <section id="header-wrapper">
+      <img id="logo" src="icons/logo.svg" alt="Logo">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Il metodo</a></li>
+          <li><a href="#">La tecnologia</a></li>
+          <li><a href="#">Real-life English</a></li>
+          <li><a href="#">Soluzioni aziendali</a></li>
+        </ul>
+      </nav>
+      <nav class="side-nav">
+        <ul>
+          <li><a href="#">Diventa un tutor</a></li>
+          <li><a href="#" id="button-1">Login</a></li>
+          <li><a href="#" id="button-2">Struttura un piano</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section id="header-hero">
+      <div class="hero-1">
+        <h1>Scegli l'inglese studiato <br> per i professionisti</h1>
+        <button type="button" name="button">Struttura un piano </button>
       </div>
-      <div class="f-con-2">
-        <div class="f-con-2-options">
-          <label for="plan">Sono</label>
-          <select class="" name="plan">
-            <option value="Seleziona">Seleziona</option>
-          </select>
-          <a href="#" class="green">Visualizza il tuo piano</a>
-          <br>
-          <a href="#" class="green" id="help">Help</a>
+      <div class="hero-2">
+        <img src="img/background-header.png">
+      </div>
+    </section>
+  </header>
+  <main>
+    <div class="upper-main">
+      <h3>Le scuole di lingua tradizionali non sono efficaci</h3>
+      <h4>Solo un corso incentrato sulla fluency può portare a una soluzione definitiva concreta</h4>
+    </div>
+    <div id="column-layout">
+      <div class="columns">
+        <div class="col-left">
+          <img src="icons/profile.svg">
+          <h3>Piano formativo configurato <br> sul proprio livello</h3>
+          <hr>
+          <p>Un metodo improntato sullo speaking con percorsi basati esattamente sulle esigenze personali dei partecipanti.Tutto parte da un accurato test di partenza per definire il livello e impostare gli obiettivi da raggiungere.</p>
         </div>
+        <div class="col-center">
+          <img src="icons/computer.svg">
+          <h3>Affiancamento costante del tutor</h3>
+          <hr>
+          <p>Scopri il syllabus, la guida per il tuo percorso. Scegli gli argomenti per passare al livello successivo e affrontali con i tutor nelle sessioni one-to-one.</p>
+        </div>
+        <div class="col-right">
+          <img src="icons/doc.svg">
+          <h3>Monitora i tuoi progressi costantemente</h3>
+          <hr>
+          <p>Controlla i tuoi progressi con i dati elaborati dal nostro sistema</p>
+        </div>
+
       </div>
+
     </div>
-  </footer>
-  <!-- /FOOTER -->
+
+
+  </main>
+  <hr>
+
 </body>
 </html>

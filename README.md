@@ -1,1 +1,1 @@
-htmlcss-fluentify-2.0
+htmlcss-fluentify
