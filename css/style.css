@@ -145,6 +145,7 @@ font-weight: 400;
 /* COLUMN-LAYOUT */
 .column-layout{
   margin: 0 auto;
+
 }
 .clearfix{
   clear: both;
@@ -162,8 +163,7 @@ font-weight: 400;
   line-height: 22px;
 }
 
-  .col-left > img, .col-center > img, .col-right > img{
-  width: 100px;
+.col-left > img, .col-center > img, .col-right > img{
   height: 140px;
   padding-top: 20px;
   margin-left: auto;
